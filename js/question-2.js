@@ -31,9 +31,6 @@ async function getGames() {
         console.log("An error occorred");
         resultsContainer.innerHTML = displayError("An error occurred when calling the API");
     }
-    
-
-
 }
 
 getGames();
